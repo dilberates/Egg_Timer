@@ -39,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CDD9CC228D0591400193A4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF037F322D332A800A69E9A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CDD9CC328D0592200193A4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADF037F122D332A800A69E9A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		ADF037E122D332A800A69E9A = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +76,8 @@
 			children = (
 				ADF037ED22D332A800A69E9A /* AppDelegate.swift */,
 				ADF037EF22D332A800A69E9A /* SceneDelegate.swift */,
-				ADF037F122D332A800A69E9A /* ViewController.swift */,
-				ADF037F322D332A800A69E9A /* Main.storyboard */,
+				0CDD9CC328D0592200193A4F /* Controller */,
+				0CDD9CC228D0591400193A4F /* View */,
 				ADF037F622D332AD00A69E9A /* Assets.xcassets */,
 				AD5C106522D36212001E14A5 /* alarm_sound.mp3 */,
 				ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */,
